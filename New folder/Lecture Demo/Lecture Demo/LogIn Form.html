@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <style>
+      table{
+          /*border:2px solid black;*/
+          background-color:transparent;
+          width:300px ;
+          height:300px;
+          text-align:center;
+          margin:auto;
+          margin-top:120px;
+          border-radius:10%;
+      }
+      .email, .pass {
+          font: bold 12px tahoma;
+          color: lightseagreen;
+      }
+      span {
+          border: 1px solid lightgray;
+          background-color: transparent;
+          font: bold 12px tahoma;
+      }
+      span:hover{
+          cursor:pointer;
+          color:lightblue;
+          text-decoration:underline;
+      }
+      input[type="email"] {
+          background-color: transparent;
+          background-image: url(Images/ico2.png);
+          padding-left: 30px;
+          background-repeat: no-repeat;
+          border: 0;
+          outline: 0;
+          border-bottom:1px solid lightblue;
+      }
+      input[type="password"] {
+          background-color: transparent;
+          background-image: url(Images/ico1.png);
+          padding-left: 30px;
+          background-repeat: no-repeat;
+          border: 0;
+          outline: 0;
+          border-bottom: 1px solid lightblue;
+      }
+
+          input[type="password"]:focus, input[type="email"]:focus {
+              border-bottom: 1px solid blue;
+          }
+          body{
+              background-image:url(Images/w.jpg)
+          }
+          
+  </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="email">Email</td>
+        </tr>
+        <tr>
+            <td><input type="email" placeholder="Enter Your Email" /></td>
+        </tr>
+
+        <tr>
+            <td class="pass">Password</td>
+        </tr>
+        <tr>
+            <td><input type="password" placeholder="Enter Your password" /></td>
+        </tr>
+        <tr>
+            <td><span>Log In</span></td>
+        </tr>
+
+    </table>
+</body>
+</html>
